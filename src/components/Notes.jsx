@@ -86,7 +86,7 @@ export default function Notes() {
     if (id === 'notes') {
       setNotes(e.target.value);
     } else if (id === 'title') {
-      setTitle(e.target.value);
+      setTitle(e.target.value); 
     }
   }
 
